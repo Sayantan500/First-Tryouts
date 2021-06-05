@@ -10,7 +10,7 @@ class ClassCastExceptionExample
             str = (ArrayList<String>) Arrays.asList(s);
             System.out.println("Executed try block");
         } catch (ClassCastException e) {
-           System.out.println("Exception occurred :" + e.toString());
+           System.out.println("Exception occurred :" + e);
         } finally {
             System.out.println("Finally : "+str);
         }
